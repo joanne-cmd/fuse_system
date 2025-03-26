@@ -1,0 +1,13 @@
+[package]
+name = "dapp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fuser = "0.14.0"
+libc = "0.2"
+json = "0.12"
+hyper = { version = "0.14", features = ["http1", "runtime", "client"] }
+tokio = { version = "1.32", features = ["macros", "rt-multi-thread"] }
+log = "0.4"
+env_logger = "0.10"
